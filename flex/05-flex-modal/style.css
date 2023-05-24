@@ -15,11 +15,41 @@ body {
   justify-content: center;
 }
 
+.header {
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 80px;
+}
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.container-one {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  flex-shrink: 0;
+  align-items: center;
+}
+.container-two {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 7px;
+  padding-left: 60px;
+  align-items: center;
+}
+
+.container-three {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  padding-left: 60px;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 4px;
 }
 
 .icon {
